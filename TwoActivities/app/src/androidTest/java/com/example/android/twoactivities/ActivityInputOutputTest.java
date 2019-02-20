@@ -69,7 +69,7 @@ public class ActivityInputOutputTest {
         onView(withId(R.id.editText_main)).perform(typeText("This is a test."));
         onView(withId(R.id.button_main)).perform(click());
 
-        onView(withId(R.id.text_message)).check(matches(withText("This is a failing test.")));
+        onView(withId(R.id.text_message)).check(matches(withText("This is a test.")));
     }
 
 
